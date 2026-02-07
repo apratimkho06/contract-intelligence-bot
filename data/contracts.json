@@ -1,0 +1,382 @@
+[
+  {
+    "contract_id": "CT-1001",
+    "supplier": "Northwind Metals",
+    "material": "Aluminum Sheet",
+    "contract_type": "Fixed",
+    "start_date": "2024-01-15",
+    "end_date": "2026-01-14",
+    "status": "Active",
+    "payment_terms": "Net 30",
+    "pricing_model": "Fixed price",
+    "line_items": [
+      {
+        "item_name": "Aluminum Sheet 2mm",
+        "quantity": 1200,
+        "unit": "sheets",
+        "price": 48.5,
+        "delivery_location": "Dallas, TX"
+      },
+      {
+        "item_name": "Aluminum Sheet 4mm",
+        "quantity": 800,
+        "unit": "sheets",
+        "price": 62.75,
+        "delivery_location": "Dallas, TX"
+      },
+      {
+        "item_name": "Cut-to-size service",
+        "quantity": 1,
+        "unit": "lot",
+        "price": 1250,
+        "delivery_location": "Dallas, TX"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1002",
+    "supplier": "Pacific Plastics",
+    "material": "HDPE Pellets",
+    "contract_type": "Index",
+    "start_date": "2023-09-01",
+    "end_date": "2025-08-31",
+    "status": "Active",
+    "payment_terms": "Net 45",
+    "pricing_model": "Indexed to resin market",
+    "line_items": [
+      {
+        "item_name": "HDPE Pellets",
+        "quantity": 45000,
+        "unit": "kg",
+        "price": 1.34,
+        "delivery_location": "Long Beach, CA"
+      },
+      {
+        "item_name": "UV Stabilizer Additive",
+        "quantity": 1200,
+        "unit": "kg",
+        "price": 4.1,
+        "delivery_location": "Long Beach, CA"
+      },
+      {
+        "item_name": "Packaging Bags",
+        "quantity": 5000,
+        "unit": "units",
+        "price": 0.18,
+        "delivery_location": "Long Beach, CA"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1003",
+    "supplier": "Granite Peak Cement",
+    "material": "Portland Cement",
+    "contract_type": "Volume",
+    "start_date": "2022-04-01",
+    "end_date": "2024-03-31",
+    "status": "Expired",
+    "payment_terms": "Net 30",
+    "pricing_model": "Volume discount",
+    "line_items": [
+      {
+        "item_name": "Portland Cement Type I",
+        "quantity": 900,
+        "unit": "tons",
+        "price": 112.5,
+        "delivery_location": "Kansas City, MO"
+      },
+      {
+        "item_name": "Portland Cement Type II",
+        "quantity": 650,
+        "unit": "tons",
+        "price": 119,
+        "delivery_location": "Kansas City, MO"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1004",
+    "supplier": "Summit Logistics",
+    "material": "Freight Services",
+    "contract_type": "Service",
+    "start_date": "2024-06-01",
+    "end_date": "2027-05-31",
+    "status": "Active",
+    "payment_terms": "Net 15",
+    "pricing_model": "Rate card",
+    "line_items": [
+      {
+        "item_name": "Regional Freight - Midwest",
+        "quantity": 180,
+        "unit": "loads",
+        "price": 780,
+        "delivery_location": "Chicago, IL"
+      },
+      {
+        "item_name": "Regional Freight - Southeast",
+        "quantity": 140,
+        "unit": "loads",
+        "price": 820,
+        "delivery_location": "Atlanta, GA"
+      },
+      {
+        "item_name": "Expedite Service",
+        "quantity": 12,
+        "unit": "loads",
+        "price": 1450,
+        "delivery_location": "Memphis, TN"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1005",
+    "supplier": "BlueRiver Chemicals",
+    "material": "Industrial Solvent",
+    "contract_type": "Spot",
+    "start_date": "2024-11-01",
+    "end_date": "2025-10-31",
+    "status": "Pending",
+    "payment_terms": "Net 30",
+    "pricing_model": "Market adjusted",
+    "line_items": [
+      {
+        "item_name": "Industrial Solvent A",
+        "quantity": 15000,
+        "unit": "liters",
+        "price": 2.85,
+        "delivery_location": "Houston, TX"
+      },
+      {
+        "item_name": "Drum Handling Fee",
+        "quantity": 1,
+        "unit": "lot",
+        "price": 420,
+        "delivery_location": "Houston, TX"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1006",
+    "supplier": "Aurora Packaging",
+    "material": "Corrugated Boxes",
+    "contract_type": "Fixed",
+    "start_date": "2024-02-01",
+    "end_date": "2026-01-31",
+    "status": "Active",
+    "payment_terms": "Net 60",
+    "pricing_model": "Tiered pricing",
+    "line_items": [
+      {
+        "item_name": "Corrugated Box 18x12x8",
+        "quantity": 35000,
+        "unit": "units",
+        "price": 0.84,
+        "delivery_location": "Omaha, NE"
+      },
+      {
+        "item_name": "Corrugated Box 24x16x12",
+        "quantity": 24000,
+        "unit": "units",
+        "price": 1.12,
+        "delivery_location": "Omaha, NE"
+      },
+      {
+        "item_name": "Pallet Labeling",
+        "quantity": 1,
+        "unit": "lot",
+        "price": 310,
+        "delivery_location": "Omaha, NE"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1007",
+    "supplier": "Evergreen Timber",
+    "material": "Pallets",
+    "contract_type": "Renewal",
+    "start_date": "2023-01-01",
+    "end_date": "2025-12-31",
+    "status": "Renewal",
+    "payment_terms": "Net 30",
+    "pricing_model": "Fixed price",
+    "line_items": [
+      {
+        "item_name": "Standard Pallet 48x40",
+        "quantity": 16000,
+        "unit": "units",
+        "price": 10.25,
+        "delivery_location": "Portland, OR"
+      },
+      {
+        "item_name": "Heat-Treated Pallet",
+        "quantity": 6000,
+        "unit": "units",
+        "price": 12.4,
+        "delivery_location": "Portland, OR"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1008",
+    "supplier": "Precision Fasteners",
+    "material": "Stainless Steel Bolts",
+    "contract_type": "Fixed",
+    "start_date": "2024-05-15",
+    "end_date": "2026-05-14",
+    "status": "Active",
+    "payment_terms": "Net 45",
+    "pricing_model": "Fixed price",
+    "line_items": [
+      {
+        "item_name": "Stainless Steel Bolt M8",
+        "quantity": 120000,
+        "unit": "units",
+        "price": 0.18,
+        "delivery_location": "Cleveland, OH"
+      },
+      {
+        "item_name": "Stainless Steel Bolt M10",
+        "quantity": 95000,
+        "unit": "units",
+        "price": 0.24,
+        "delivery_location": "Cleveland, OH"
+      },
+      {
+        "item_name": "Washer Pack",
+        "quantity": 100000,
+        "unit": "units",
+        "price": 0.05,
+        "delivery_location": "Cleveland, OH"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1009",
+    "supplier": "ClearFlow Filters",
+    "material": "Industrial Filters",
+    "contract_type": "Service",
+    "start_date": "2024-03-01",
+    "end_date": "2025-02-28",
+    "status": "On Hold",
+    "payment_terms": "Net 30",
+    "pricing_model": "Consignment",
+    "line_items": [
+      {
+        "item_name": "HVAC Filter 20x25",
+        "quantity": 1800,
+        "unit": "units",
+        "price": 12.75,
+        "delivery_location": "Phoenix, AZ"
+      },
+      {
+        "item_name": "HEPA Filter Cartridge",
+        "quantity": 420,
+        "unit": "units",
+        "price": 58.9,
+        "delivery_location": "Phoenix, AZ"
+      },
+      {
+        "item_name": "Change-out Service",
+        "quantity": 6,
+        "unit": "visits",
+        "price": 650,
+        "delivery_location": "Phoenix, AZ"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1010",
+    "supplier": "Metro Energy",
+    "material": "Electricity",
+    "contract_type": "Index",
+    "start_date": "2024-01-01",
+    "end_date": "2026-12-31",
+    "status": "Active",
+    "payment_terms": "Net 20",
+    "pricing_model": "Indexed to utility rate",
+    "line_items": [
+      {
+        "item_name": "Electricity Base Load",
+        "quantity": 3600000,
+        "unit": "kWh",
+        "price": 0.086,
+        "delivery_location": "Cincinnati, OH"
+      },
+      {
+        "item_name": "Renewable Energy Credits",
+        "quantity": 900000,
+        "unit": "kWh",
+        "price": 0.012,
+        "delivery_location": "Cincinnati, OH"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1011",
+    "supplier": "Arctic Safety",
+    "material": "PPE Supplies",
+    "contract_type": "Fixed",
+    "start_date": "2024-07-01",
+    "end_date": "2025-06-30",
+    "status": "Active",
+    "payment_terms": "Net 30",
+    "pricing_model": "Catalog pricing",
+    "line_items": [
+      {
+        "item_name": "Safety Gloves - Cut Level 5",
+        "quantity": 24000,
+        "unit": "pairs",
+        "price": 3.2,
+        "delivery_location": "Minneapolis, MN"
+      },
+      {
+        "item_name": "Safety Goggles",
+        "quantity": 18000,
+        "unit": "units",
+        "price": 2.1,
+        "delivery_location": "Minneapolis, MN"
+      },
+      {
+        "item_name": "Hi-Vis Vests",
+        "quantity": 6000,
+        "unit": "units",
+        "price": 6.4,
+        "delivery_location": "Minneapolis, MN"
+      }
+    ]
+  },
+  {
+    "contract_id": "CT-1012",
+    "supplier": "Canyon Steel",
+    "material": "Steel Coil",
+    "contract_type": "Index",
+    "start_date": "2023-10-01",
+    "end_date": "2025-09-30",
+    "status": "Active",
+    "payment_terms": "Net 45",
+    "pricing_model": "Indexed to CRU",
+    "line_items": [
+      {
+        "item_name": "Steel Coil 1.5mm",
+        "quantity": 2200,
+        "unit": "tons",
+        "price": 742,
+        "delivery_location": "Pittsburgh, PA"
+      },
+      {
+        "item_name": "Steel Coil 2.0mm",
+        "quantity": 1750,
+        "unit": "tons",
+        "price": 781,
+        "delivery_location": "Pittsburgh, PA"
+      },
+      {
+        "item_name": "Slitting Service",
+        "quantity": 1,
+        "unit": "lot",
+        "price": 1980,
+        "delivery_location": "Pittsburgh, PA"
+      }
+    ]
+  }
+]
